@@ -1,0 +1,22 @@
+def parrot(voltage, state='a stiff', action='voom', type='Norwegian Blue'):
+    print("-- this parrot wouldn't", action, end=' ')
+    print("if you put", voltage, "volts through it")
+    print("-- lovely plumage, the", type)
+    print("-- it's", state, "! ")
+# parrot(1000)
+# print('---')
+# parrot(voltage=1000)
+# print('---')
+# parrot(voltage=10000, action="vooooommmm")
+# print('---')
+# parrot(action="VOOOM!!", voltage=1000000000)
+# print('---')
+# parrot('a million', 'bereft of life', 'jump')
+print('---')
+parrot('a thousand', state='pushing up the daisies')
+
+#error call trial
+# parrot()
+# parrot(voltage=5.0, 'dead')
+# parrot(110, voltage=220)
+# parrot(actor='John Woo')
